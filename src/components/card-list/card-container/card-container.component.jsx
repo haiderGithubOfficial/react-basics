@@ -2,6 +2,7 @@ import "./card-container.styles.css";
 
 const CardContainer = ({ monsterData: { name, email, id } }) => {
   console.log("test");
+  console.log("new feature");
   return (
     <div key={id} className="card-container">
       <img
